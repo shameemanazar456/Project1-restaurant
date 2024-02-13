@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+    background-image: linear-gradient(to bottom, white, rgb(37, 36, 36) );
+    width: 100%;
+}
+.Container{
+  
+    width: 100%;
+   
+    
+
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding-right: 50px;
+      
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+#logo{
+    width: 150px;
+    height: 100%;
+}
+#menu-bar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+#menubar-item{
+    margin-left: 35px;
+    font-weight: bolder; 
+    justify-content: center;  
+    
+}
+#menulink{
+    text-decoration: none;
+    color: rgb(0, 0, 19);
+    text-align: center;
+    justify-content: center;
+    border-radius: 10PX;
+}
+#menulink:hover{
+    background-image: linear-gradient(to bottom, rgb(107, 103, 103), rgb(180, 175, 175) );
+}
+.slider{
+    width: 95%;
+    height: 500px;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 0px;
+    border-radius: 10px;
+    background-image: url(./images/spices.webp);
+    
+    
+}
+#imgdiv1{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+#imgdiv1 img{
+    height: 150px;
+}
+#slider-fig{
+    position: relative;
+    left: 0;
+    width: 400%;
+    float: left;
+    animation: 15s slide-ani infinite;
+}
+
+mark{
+    background-color: white;
+    color: black;
+}
+.tagline{
+    display: flex;
+    width: 60%;
+    height: 100px;
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.slide{
+    position: relative;
+    width: 25%;
+    float: left;
+    text-align: center;
+    text-justify: inter-word;
+    
+
+}
+.slide h1{
+    
+    font-size: 50px;
+    margin-left:20PX;
+    text-align: center;
+    color: rgb(248, 48, 12);
+}
+#slide-img{
+    width: 100%;
+    height: 500px; 
+}
+
+@keyframes slide-ani{
+    0%{
+        left: 0;
+
+    }
+    10%{
+        left: 0;
+
+    }
+    35%{
+        left: -100%;
+
+    }
+    40%{
+        left: -100%;
+
+    }
+    55%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+
+    }
+    85%{
+        left: -300%;
+
+    }
+    97.5%{
+        left: -300%;
+
+    }
+    
+    98%{
+        left: 0;
+    }
+}
+
+.spl-cards{
+    width: 95%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+#heading{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(102, 59, 3);
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+#heading:hover{
+    text-shadow: 2px 2px 5px orange;
+}
+.cards{
+    width: 450px;
+    height: 350px;
+    background-color: rgb(201, 200, 197);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+    
+}
+.cards:hover{
+    background-image: linear-gradient(to bottom, rgb(107, 103, 103), rgb(180, 175, 175) );
+}
+.cards h3{
+    text-align: center;
+}
+#imgdiv
+{
+    text-align: center;
+}
+#spl-img{
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    height: 150px;
+    width: 180px;
+}
+#para{
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(32, 31, 31);
+    font-weight: 900;
+}
+#explore{
+    margin-top: 40px;
+    margin-left: 30%;
+    width: 150px;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(1, 75, 44);
+    border: none;
+    background-color: rgb(201, 200, 197);
+    font-style: italic;
+    
+
+}
+#explore:hover{
+    background-image: linear-gradient(to bottom, rgb(107, 103, 103), rgb(180, 175, 175) );
+}
+
+
+
+/*menu*/
+
+.Menu-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+    justify-content: center;
+}
+.menuitems{
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    font-size: 20px;
+   border-radius: 10px;
+   border: none;
+}
+.menuitems:hover{
+    background-image: linear-gradient(to bottom, rgb(107, 103, 103), rgb(180, 175, 175) );
+
+}
+#menulink{
+    color: rgb(3, 20, 56);
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/*Testimonials*/
+
+
+.test-cards{
+    width: 95%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+#heading{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(102, 59, 3);
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.test-card{
+    width: 450px;
+    height: 300px;
+    background-color: rgb(201, 200, 197);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+    
+}
+.test-card:hover{
+    background-image: linear-gradient(to bottom, rgb(107, 103, 103), rgb(180, 175, 175) );
+}
+.test-card h3{
+    text-align: center;
+}
+#imgdiv
+{
+    text-align: center;
+}
+#spl-img{
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    height: 150px;
+    width: 180px;
+}
+#para{
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(32, 31, 31);
+    font-weight: 900;
+}
+
+.right-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.right-arrow{
+    background-image: linear-gradient(to bottom right, rgb(241, 241, 235), rgb(117, 108, 104));
+    float: right ;
+    margin: 150px 10px  50px 0px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*Contact us*/
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+.information{
+    margin-top: 20px;
+}
+.info-box{
+    margin-bottom: 1.2rem;
+}
+.info-box span{
+    margin-left: .5rem;
+    font-size: 18px;
+}
+
+
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px;
+
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, rgb(233, 233, 226), rgb(36, 31, 29));
+}
+.icon i{
+    font-size: 2rem;
+    color: rgb(241, 235, 235);
+}
+.icon:hover i{
+    color: white;
+    animation: shake 1s;
+}
+.form:hover{
+    box-shadow: 7px 7px 10px 10px white;
+}
+
+.inputf{
+    margin: 10px;
+    padding: 10px;
+}
+#feed{
+margin-top: 10px;
+    width: 100px;
+    font-size: large;
+    font-weight: bolder;
+    color: blue;
+    border: none;
+    background-color: rgb(201, 200, 197);
+    font-style: italic;
+
+}
+#feed:hover{
+    background-image: linear-gradient(to bottom, rgb(107, 103, 103), rgb(180, 175, 175) );
+}
+
+
+
+#footerlink{
+    text-decoration: none;
+    font-size: large;
+}
+
+#contactus{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}

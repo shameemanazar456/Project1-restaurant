@@ -1,0 +1,51 @@
+#Menucontainer{
+    width: 100%;
+    margin: 10px;
+
+}
+#heading{
+    color: red;
+   font-weight: bolder;
+   text-align: center;
+
+}
+.Menulist{
+
+    width: 95%;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.Menu{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(201, 200, 197);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: rgb(128, 2, 2);
+    
+    }
+
+.Menu h3{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(102, 59, 3);
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.Menu:hover{
+    background-image: linear-gradient(to bottom, rgb(107, 103, 103), rgb(180, 175, 175) );
+}
+#item{
+    font-size: 20px;
+}
+#menuitems{
+    float: right;
+    
+}
