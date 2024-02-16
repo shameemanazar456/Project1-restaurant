@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 300px;
+    text-align: center;
+    
+}
+.test-cards{
+    width: 95%;
+    margin-left: 20px;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+}
+#heading{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 500px;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+#heading:hover{
+    text-shadow: 5px 5px 5px orange;
+}
+.test-card{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(201, 200, 197);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+    
+}
+.test-card:hover{
+    box-shadow: 10px 10px 10px white;
+    background-image: linear-gradient(to bottom, rgb(107, 103, 103), rgb(180, 175, 175) );
+}
+.test-card h3{
+    text-align: center;
+}
+#imgdiv
+{
+    text-align: center;
+}
+#spl-img{
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    height: 150px;
+    width: 180px;
+}
+#para{
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(32, 31, 31);
+    font-weight: 900;
+}
+
+.right-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.right-arrow{
+    background-image: linear-gradient(to bottom right, rgb(241, 241, 235), rgb(117, 108, 104));
+    float: right ;
+    margin: 150px 10px  50px 0px;
+
+}
